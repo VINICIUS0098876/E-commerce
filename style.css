@@ -25,6 +25,13 @@ body{
     color: var(--text-color);
 }
 
+.cart-content {
+    max-height: 300px; /* Defina a altura máxima desejada para o carrinho */
+    overflow-y: auto;
+    overflow-x: hidden; /* Adiciona uma barra de rolagem vertical quando o conteúdo excede a altura máxima */
+}
+
+
 .container{
     max-width: 1068px;
     width: 100%;
